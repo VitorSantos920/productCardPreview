@@ -33,6 +33,24 @@ body {
   height: 350px;
   background-color: var(--bg-container);
   border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+}
+
+.container > .left-side {
+  width: 50%;
+  height: 100%;
+}
+
+.left-side img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-side {
+  background-color: red;
+  width: 50%;
+  padding: 25px;
 }
 
 .attribution {
