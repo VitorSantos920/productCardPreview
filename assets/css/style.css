@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --bg-color: hsl(30, 38%, 92%);
+  --text-color: hsl(228, 12%, 48%);
+  --bg-container: hsl(0, 0%, 100%);
+}
+
+html {
+  background-color: rgb(53, 36, 14);
+}
+
+body {
+  height: 100vh;
+}
+
+.main-content {
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content > .container {
+  width: 480px;
+  height: 350px;
+  background-color: var(--bg-container);
+  border-radius: 12px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
